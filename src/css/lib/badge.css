@@ -1,5 +1,4 @@
-/* This file has all css required for badge component */ 
-
+/* this file has all style prop required for each type of badge */
 
 /* badge on avatar */
 .badge-avatar{
@@ -11,13 +10,17 @@
     content: '';
     position: absolute;
     aspect-ratio: 1/1;
-    border-radius: 3rem;
+    border-radius: var(--border-sm-circle);
     width:20%;
-   
-    background-color: red;
+    bottom: 0;
+    right:10%;
+    border: var(--border-default) white;
+    background-color: var(--cta1);
+    
 
 }
-/* badge location */
+
+/* positioning the badge on avatar */
 .badge-btm-right::after{
     bottom: 0;
     right:10%;
@@ -34,18 +37,18 @@
     top: 0;
     left:10%;
 }
+
 /* badge on icon */
-.badge-icon{
+.badge-icon,.badge-icn-container{
+    color: inherit;
     position: relative;
     width: inherit;
     display: inline-block;
-    font-size: var(--icn-lrg);
+    font-size:1.5rem;
+    
 }
-.badge-icon::after{
-    content: "2";
-    
-    
-    
+.badge-icn-container::after{
+    content: "100";
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,24 +60,28 @@
     transform: translate(75%,-75%);
     min-width: 70%;
     min-height: 70%;
-    border-radius: 3rem;
-    background-color: red;
+    border-radius: var(--border-sm-circle);
+    
+    background-color:  var(--cta1);
+    color: white;
+    font-size: var(--font-sz-1);
 }
 
-/* badge on text */
+
+/* texted badge */
 .badge-txt ,.badge-txt-rnd{
     
     background-color: var(--badge-gray);
     text-align: center;
     padding:.2rem .65rem;
-    border-radius: .5rem;
+    border-radius: var(--border-curved);
 }
 .badge-txt-rnd{
-    border-radius: 3rem;
+    border-radius: var(--border-sm-circle);
 }
 
 
-/* badge colors */
+/* background colouring for badged text and badged avatar */
 .badge-txt-red , .badge-red::after{
     background-color: var(--badge-red);
 }
@@ -107,4 +114,4 @@
 .badge-content::after{
     content: var(--content);
     
-}   
+}
