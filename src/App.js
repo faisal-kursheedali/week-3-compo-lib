@@ -6,7 +6,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import {Home, Nav,Doc,Footer} from "./import";
+import {Home, Nav,Doc} from "./import";
 function App() {
   return (
     <>
