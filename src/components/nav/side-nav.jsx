@@ -1,5 +1,6 @@
 import React from 'react'
 import {Install,Avatar} from "../doc/import-doc"
+import Footer from '../footer'
 import { Usenavcontext } from './nav-context'
 
 const Sidenav= () => {
@@ -19,6 +20,7 @@ const Sidenav= () => {
         {
           select
         }
+        <Footer/>
       </div>
       </div>
     </>

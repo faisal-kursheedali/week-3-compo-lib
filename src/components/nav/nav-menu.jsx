@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import{Avatar,Install}from  '../doc/import-doc'
+import Footer from '../footer';
 import { Usenavcontext } from './nav-context';
 
 const Navmenu= () => {
@@ -25,13 +26,15 @@ const[menuClick,setMenuClick]=useState(false)
                 {
                   select
                 }
+                <Footer/>
           </div>
           </div>
           </>):
             <div className="container-for-navmenu">
           <div className="content-of-navmenu" >{
             select
-        }</div></div>
+            
+        }<Footer/></div></div>
         }
         
         
