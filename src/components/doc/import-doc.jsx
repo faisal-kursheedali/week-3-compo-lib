@@ -2,7 +2,8 @@
 // and export them all as named export for this one file
 import Avatar from "./avatar";
 import Install from "./inistall";
+import Navigation from "./nav";
 
 
 
-export {Avatar,Install};
+export {Avatar,Install,Navigation};

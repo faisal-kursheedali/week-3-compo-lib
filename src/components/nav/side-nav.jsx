@@ -1,5 +1,5 @@
 import React from 'react'
-import {Install,Avatar} from "../doc/import-doc"
+import {Install,Avatar,Navigation} from "../doc/import-doc"
 import { Usenavcontext } from './nav-context'
 
 const Sidenav= () => {
@@ -11,6 +11,7 @@ const Sidenav= () => {
        <ul className="sidenav-list">
          <li className="sidenav-item" onClick={()=>setSelect(Install)} style={{borderBlockColor:'var(--cta1)'}}>Installation</li>
          <li className="sidenav-item" onClick={()=>setSelect(<Avatar/>)} style={{borderBlockColor:'var(--cta1)'}}>Avatar</li>
+         <li className="sidenav-item" onClick={()=>setSelect(<Navigation/>)} style={{borderBlockColor:'var(--cta1)'}}>Navigathion</li>
        </ul>
 
         
