@@ -30,7 +30,7 @@ const Image = () => {
     <div className="img-rnd-container" style={{margin:"8px"}}>
       <img src="https://buildui.netlify.app/images/img14.jpg" alt="" className="img-rnd" />
     </div>
-  </div>
+  </div> 
   <Showcode code={`
   <div className="img-rnd-container">
   <img src="" alt="" className='img-rnd'/>
