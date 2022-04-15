@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import{Avatar,Install}from  '../doc/import-doc'
+import{Avatar,Install,Button}from  '../doc/import-doc'
 import Footer from '../footer';
 import { Usenavcontext } from './nav-context';
 
@@ -17,6 +17,7 @@ const[menuClick,setMenuClick]=useState(false)
                     
                     <li className="navmenu-item" onClick={()=>{setSelect(<Install/>); setMenuClick(!menuClick) }} >Installation</li>
                     <li className="navmenu-item" onClick={()=>{setSelect(<Avatar/>); setMenuClick(!menuClick) }} >Avatar</li>
+                    <li className="navmenu-item" onClick={()=>{setSelect(<Button/>); setMenuClick(!menuClick) }} >Button</li>
                     
                     <li className="navmenu-item" onClick={()=>{ setMenuClick(!menuClick) }} >Back to doc</li>
                 </ul>
