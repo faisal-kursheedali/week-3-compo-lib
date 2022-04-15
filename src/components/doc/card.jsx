@@ -20,7 +20,7 @@ const Card = () => {
         <div className="card-offer-txt">
           this is sample card only
         </div>
-        <a href="#" className="card-offer-link link-fancy">from RS 200</a>
+        <a href="." className="card-offer-link link-fancy">from RS 200</a>
       </div>
       <div className="card-offer">
         <img src="https://buildui.netlify.app/images/img-products/img4.jpg" alt='' className="card-offer-img" />
@@ -30,7 +30,7 @@ const Card = () => {
         <div className="card-offer-txt">
           this is sample card only
         </div>
-        <a href="#" className="card-offer-link link-fancy">from RS 200</a>
+        <a href="." className="card-offer-link link-fancy">from RS 200</a>
       </div>
       <div className="card-offer">
         <img src="https://buildui.netlify.app/images/img-products/img11.jpg" alt='' className="card-offer-img" />
@@ -40,7 +40,7 @@ const Card = () => {
         <div className="card-offer-txt">
           this is sample card only
         </div>
-        <a href="#" className="card-offer-link link-fancy">Rs 200</a>
+        <a href="." className="card-offer-link link-fancy">Rs 200</a>
       </div>
       <div className="card-offer">
         <img src="https://buildui.netlify.app/images/img-products/img5.jpg" alt='' className="card-offer-img" />
@@ -50,7 +50,7 @@ const Card = () => {
         <div className="card-offer-txt">
           this is sample card only
         </div>
-        <a href="#" className="card-offer-link link-fancy">Rs 200</a>
+        <a href="." className="card-offer-link link-fancy">Rs 200</a>
       </div>
       <div className="card-offer">
         <img src="https://buildui.netlify.app/images/img-products/img13.jpg" alt='' className="card-offer-img" />
@@ -60,7 +60,7 @@ const Card = () => {
         <div className="card-offer-txt">
           this is sample card only
         </div>
-        <a href="#" className="card-offer-link link-fancy">Rs 200</a>
+        <a href="." className="card-offer-link link-fancy">Rs 200</a>
       </div>
       <div className="card-offer">
         <img src="https://buildui.netlify.app/images/img-products/img6.jpg" alt='' className="card-offer-img" />
@@ -70,7 +70,7 @@ const Card = () => {
         <div className="card-offer-txt">
           this is sample card only
         </div>
-        <a href="#" className="card-offer-link link-fancy">Rs 200</a>
+        <a href="." className="card-offer-link link-fancy">Rs 200</a>
       </div>
     </section>
   </section>
@@ -84,7 +84,7 @@ const Card = () => {
         <div className="card-offer-txt">
           this is sample card only
         </div>
-        <a href="#" className="card-offer-link link-fancy">from RS 200</a>
+        <a href="." className="card-offer-link link-fancy">from RS 200</a>
       </div>
       <div className="card-offer">
         <img src="https://buildui.netlify.app/images/img-products/img4.jpg" alt='' className="card-offer-img" />
@@ -164,7 +164,7 @@ const Card = () => {
           <div className="card-offer-txt">
             This is sample product only so, plz don't copy this.
           </div>
-          <a href="#" className="card-offer-link link-fancy">Rs 200</a>
+          <a href="." className="card-offer-link link-fancy">Rs 200</a>
         </div>
       </div>
       <div className="card-offer card-disable">
@@ -176,7 +176,7 @@ const Card = () => {
         <div className="card-offer-txt">
           This is sample card only.
         </div>
-        <a href="#" className="card-offer-link link-fancy">from RS 200</a>
+        <a href="." className="card-offer-link link-fancy">from RS 200</a>
       </div>
       <div className="card-offer card-disable">
         <div className="card-disable-txt">OUT OF STACK</div>
@@ -187,7 +187,7 @@ const Card = () => {
         <div className="card-offer-txt">
           This is sample card only.
         </div>
-        <a href="#" className="card-offer-link link-fancy">Rs 200</a>
+        <a href="." className="card-offer-link link-fancy">Rs 200</a>
       </div>
     </section>
     <div className="card-normal card-disable">
