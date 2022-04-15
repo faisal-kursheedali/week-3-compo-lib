@@ -10,7 +10,7 @@ const Home = () => {
     <div className="container">
         <div className="header">
             
-              <img src={image} alt="header image" className="header-img"/>
+              <img src={image}  className="header-img"/>
             
             <div className="header-text">
                 Build <span className="cta1">UI</span>
