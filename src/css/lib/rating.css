@@ -11,6 +11,8 @@
 /* rating icon */
 .rating-star-icn{
     font-size: 1.2rem;
+    color: gold;
+    cursor: pointer;
 }
 
 /* old rating display */
@@ -24,6 +26,8 @@
 
 .rating-old-rnd{
     border-radius: 3rem;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 .rating-old-icn{
     font-size: inherit;
