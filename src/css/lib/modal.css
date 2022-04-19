@@ -37,6 +37,7 @@
     color: var(--cta1);
     font-size: 3rem;
     margin: 1rem auto;
+    text-align: center;
 }
 /* modal sub text */
 .modal-sub{
