@@ -17,13 +17,14 @@ import Image from "./image";
 
 
 import Install from "./inistall";
+
+import Navigation from "./nav";
+
 import List from "./list";
 import Text from "./text";
 
 
+export {Avatar,Install,Image,Alert,Button,Card,List,Text,Badge,Input,Navigation};
 
-
-
-export {Avatar,Install,Image,Alert,Button,Card,List,Text,Badge,Input};
 
 
