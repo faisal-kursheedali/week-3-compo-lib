@@ -18,14 +18,22 @@
 }
 
 
-.flrx-center-rw{
+.flx-center-rw{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.flrx-center-clm{
+.flx-center-clm{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.box-container-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
