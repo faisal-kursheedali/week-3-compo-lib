@@ -3,14 +3,22 @@
 import Alert from "./alert";
 import Avatar from "./avatar";
 
+import Card from "./card";
+
+
 import Button from "./button";
 
 import Image from "./image";
 
+
 import Install from "./inistall";
+import List from "./list";
+import Text from "./text";
 
 
 
 
-export {Avatar,Install,Image,Alert,Button};
+
+export {Avatar,Install,Image,Alert,Button,Card,List,Text};
+
 
