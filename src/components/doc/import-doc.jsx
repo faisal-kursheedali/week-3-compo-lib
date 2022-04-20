@@ -3,6 +3,11 @@
 import Alert from "./alert";
 import Avatar from "./avatar";
 
+import Badge from "./badge";
+
+import Input from "./input";
+
+
 import Card from "./card";
 
 
@@ -19,6 +24,6 @@ import Text from "./text";
 
 
 
-export {Avatar,Install,Image,Alert,Button,Card,List,Text};
+export {Avatar,Install,Image,Alert,Button,Card,List,Text,Badge,Input};
 
 

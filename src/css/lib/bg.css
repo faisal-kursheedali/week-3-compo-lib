@@ -1,4 +1,6 @@
-/* This file has all css required for background colors */
+/* css for background colour */
+
+
 .gray-bg{
     background-color: var(--gray-bg);
 }
@@ -10,4 +12,16 @@
 }
 .green-bg{
     background-color: var(--green-clr);
+}
+.litegray-bg{
+    background-color: var(--litegray-bg);
+}
+.cta1-bg{
+    background-color: var(--cta1);
+}
+.cta2-bg{
+    background-color: var(--cta2);
+}
+.cta3-bg{
+    background-color: var(--cta3);
 }
