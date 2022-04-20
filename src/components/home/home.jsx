@@ -2,11 +2,13 @@ import React from 'react'
 import image from '../../images/home-header-img.png'
 import{AiOutlineArrowRight} from 'react-icons/ai';
 import {Link} from  "react-router-dom"
+import Footer from '../footer';
 // import "./home.css"
 
 // import "/";
 const Home = () => {
   return (
+    <>
     <div className="container">
         <div className="header">
             
@@ -27,6 +29,8 @@ const Home = () => {
         <Link to="/doc" className='link-nostyle'><button className="btn-fancy">Document</button>
         </Link>
     </div>
+    <Footer/>
+    </>
   )
 }
 

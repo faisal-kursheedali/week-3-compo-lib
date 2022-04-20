@@ -1,0 +1,3 @@
+.border-darkgray{
+    border: 3px solid var(--darkgray-bg);
+}

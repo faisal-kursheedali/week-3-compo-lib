@@ -1,24 +1,3 @@
-/* @import url(../lib/main-root.css); */ 
-/* .box-center,.box-center-flxcolumn,.box-center-flxrow{
-    border-radius: .5rem;
-    margin:1rem auto;
-    padding: 1rem;
-}
-.box-center{
-    width: 50%;
-    min-width: 600px;
-} */
-
-/* .flex-container-row{
-    background-color: red;
-    /* margin: auto;
-    display: flex;
-    f
-    background-color: red;
-    flex-wrap: wrap;
-    max-width: 600px;
-    height: auto; 
-}*/
 
 .xmp-box{
     border-left:10px solid var(--cta3) ;
@@ -37,3 +16,24 @@
     background-color: var(--cta1);
     border-radius: .5rem;
 }
+
+
+.flx-center-rw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flx-center-clm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-container-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
