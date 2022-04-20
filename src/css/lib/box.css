@@ -29,3 +29,10 @@
     justify-content: center;
     align-items: center;
 }
+.box-container-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
