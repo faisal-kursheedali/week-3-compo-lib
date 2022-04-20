@@ -5,7 +5,8 @@
 .btn,
 .btn-outline,
 .btn-fancy,
-.btn-outline-fancy,.btn-rnd {
+.btn-outline-fancy,.btn-rnd,.btn-sec,
+.btn-outline-sec,.btn-rnd-sec {
     text-decoration: none;
     display: block;
     padding: .5rem 1rem;
@@ -19,8 +20,9 @@
 
 
 }
+
 /* btn round */
-.btn-rnd{
+.btn-rnd,.btn-rnd{
     border-radius: 3rem;
 }
 
@@ -88,7 +90,7 @@
     text-decoration: none;
     font-weight: bold;
     color: #63b3ed;
-    
+    cursor:pointer;
 }
 /* to display link without any style */
 .link-nostyle{
@@ -164,4 +166,44 @@
     right: 2.5vw;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* secondary button for all type of button*/
+.btn-icn-sec{
+    color: inherit;
+}
+.btn-outline-icn,.btn-outline-icn-sec{
+    color: inherit;
+}
+.btn-outline-icn-sec:hover,.btn-icn-sec:hover{
+    opacity: 0.8;
+}
+.btn-outline-icn:hover{
+    color: var(--cta1);
+}
+.btn-sec{
+    background-color: var(--darkgray-bg);
+    color: inherit;
+    border-color: inherit;
+    
+}
+.btn-outline-sec{
+    color: inherit;
+    background-color: inherit;
+    border-color: inherit;
+}
+.btn-sec:hover,.btn-outline-sec:hover{
+    color: inherit;
+    background-color: var(--darkgray-bg);
+    opacity: 0.8;
+}
+
+/* link secondary */
+.link-sec{
+    color: inherit;
+    text-decoration-color:inherit;
+    cursor: pointer;
+}
+
+.link-sec:hover{
+    opacity: 0.8;
 }

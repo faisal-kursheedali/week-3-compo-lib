@@ -1,5 +1,12 @@
 import React,{useState} from 'react';
-import{Avatar,Install,Badge,Input}from  '../doc/import-doc'
+
+
+
+
+import{Avatar,Install,Image,Alert,Button,Card,Text,List,Badge,Input}from  '../doc/import-doc'
+
+
+
 import Footer from '../footer';
 import { Usenavcontext } from './nav-context';
 
@@ -17,9 +24,26 @@ const[menuClick,setMenuClick]=useState(false)
                     
                     <li className="navmenu-item" onClick={()=>{setSelect(<Install/>); setMenuClick(!menuClick) }} >Installation</li>
                     <li className="navmenu-item" onClick={()=>{setSelect(<Avatar/>); setMenuClick(!menuClick) }} >Avatar</li>
+
                     <li className="navmenu-item" onClick={()=>{setSelect(<Badge/>); setMenuClick(!menuClick) }} >Badge</li>
                     <li className="navmenu-item" onClick={()=>{setSelect(<Input/>); setMenuClick(!menuClick) }} >Input</li>
+
+
+                    <li className="navmenu-item" onClick={()=>{setSelect(<Card/>); setMenuClick(!menuClick) }} >Card</li>
+                    <li className="navmenu-item" onClick={()=>{setSelect(<List/>); setMenuClick(!menuClick) }} >List</li>
+                    <li className="navmenu-item" onClick={()=>{setSelect(<Text/>); setMenuClick(!menuClick) }} >Text</li>
+
+
+                    <li className="navmenu-item" onClick={()=>{setSelect(<Button/>); setMenuClick(!menuClick) }} >Button</li>
+
+
                     
+
+
+                    <li className="navmenu-item" onClick={()=>{setSelect(<Alert/>); setMenuClick(!menuClick) }} >Alert</li>
+                    <li className="navmenu-item" onClick={()=>{setSelect(<Image/>); setMenuClick(!menuClick) }} >Image</li>
+
+
                     <li className="navmenu-item" onClick={()=>{ setMenuClick(!menuClick) }} >Back to doc</li>
                 </ul>
             </div>
