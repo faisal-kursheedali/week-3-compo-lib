@@ -12,7 +12,9 @@ const Footer = () => {
             <li className="footer-list-item"><a href="https://www.linkedin.com/in/faisal-k-4a02801b2/" ><AiFillLinkedin className='link-icn'/></a></li>
         </ul>
         <div className="footer-sub-txt">This component is made with ❤️ @Neog boot camp.</div>
+        <div className="footer-sub-txt">Link to this repo is <a href='https://github.com/faisal-kursheedali/week-3-compo-lib' className="link-nostyle bold">here</a> </div>
     </footer>
+    
   )
 }
 

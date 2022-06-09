@@ -73,10 +73,16 @@
     display: none;
     height: 100vh;
 }
+.sidenav{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
 /* side nav  area */
 .sidenav,.navmenu{
     width: 25%;
     background-color: var(--gray-bg);
+    color: var(--black-txt);
     text-align: center;
 
 }
@@ -107,17 +113,16 @@
 /* content in main space <or> space other than nav area */
 .content-of-sidenav,.content-of-navmenu{
     width: 75%;
-    background-color:var(--white-bg);
 }
 .content-of-sidenav{
     overflow-y: scroll;
 }
-.content-of-sidenav::-webkit-scrollbar{
+.content-of-sidenav::-webkit-scrollbar,.sidenav::-webkit-scrollbar{
     width: 8px;
     background-color: var(--litegray-bg);
     border-radius: .5rem;
 }
-.content-of-sidenav::-webkit-scrollbar-thumb{
+.content-of-sidenav::-webkit-scrollbar-thumb,.sidenav::-webkit-scrollbar-thumb{
     width: 2px;
     border-radius: .5rem;
     background-color: var(--cta1);
